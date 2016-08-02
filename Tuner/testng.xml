@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="appURL" value="http://localhost:8887/" />
+	<parameter name="browserType" value="firefox" />
+	 <listeners>
+       <listener class-name="com.adobe.utils.ScreenshotListener"/>
+  </listeners>
+	<test name="Test">
+		<classes>
+		<class name="com.adobe.tests.VerifyMP4Media" />
+			<!-- <class name="com.adobe.tests.VerifyHLSMedia" />
+			<class name="com.adobe.tests.VerifyMP4Media" />
+			<class name="com.adobe.tests.VerifyLiveMedia" />
+			<class name="com.adobe.tests.VerifyTurnerMedia" />
+			<class name="com.adobe.tests.VerifyProtectedVodMedia" />
+			<class name="com.adobe.tests.VerifyProtectedLiveMedia" /> -->
+					
+			
+			
+		</classes>
+		
+	</test> 
+</suite> 
